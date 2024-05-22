@@ -1,0 +1,10 @@
+[package]
+name = "errors_3"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "4.5.4", features = ["cargo"] }
+rug = "1"
+gmp-mpfr-sys = { version = "1.6.2", features = ["force-cross"] }
+#half = "2"
